@@ -105,7 +105,7 @@ $wgRightsIcon = "{$wgStylePath}/common/images/cc-by-nc-sa.png";
 $wgDiff3 = "/usr/bin/diff3";
 
 # The following permissions were set based on your choice in the installer
-$wgGroupPermissions['*']['createaccount'] = false;
+$wgGroupPermissions['*']['createaccount'] = true;
 $wgGroupPermissions['*']['edit'] = false;
 
 # Enabled Extensions. Most extensions are enabled by including the base extension file here
@@ -114,6 +114,7 @@ $wgGroupPermissions['*']['edit'] = false;
 require_once "$IP/extensions/ConfirmEdit/ConfirmEdit.php";
 require_once "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php";
 require_once "$IP/extensions/WikiEditor/WikiEditor.php";
+require_once "$IP/extensions/CSS/CSS.php";
 
 # End of automatically generated settings.
 # Add more configuration options below.

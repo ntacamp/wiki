@@ -1,6 +1,6 @@
 # No Trolls Allowed wiki
 
-Event wiki. More information regarding event on our website [notrollsallowed.com](http://notrollsallowed.com "No Trolls Allowd")].
+Event wiki. More information regarding event on our website [notrollsallowed.com](http://notrollsallowed.com "No Trolls Allowd").
 
 ## How to install
 
