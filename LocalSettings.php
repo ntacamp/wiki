@@ -118,3 +118,6 @@ require_once "$IP/extensions/WikiEditor/WikiEditor.php";
 # End of automatically generated settings.
 # Add more configuration options below.
 require_once 'config.php';
+$wgScriptPath	    = "";
+$wgArticlePath      = "/$1";
+$wgUsePathInfo      = true;

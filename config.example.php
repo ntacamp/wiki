@@ -9,8 +9,10 @@ $wgDBpassword = "";
 # MySQL specific settings
 $wgDBprefix = "";
 
-$wgSecretKey = "";
+$wgSecretKey = "whatever";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "";
+$wgUpgradeKey = "whatever";
+
+$wgServer = "http://your.local.wiki.server/";
